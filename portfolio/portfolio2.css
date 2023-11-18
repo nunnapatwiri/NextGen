@@ -1,0 +1,131 @@
+.container{
+    background-color: #364358;
+    width: 100%;
+    height: 100vh;
+}
+.nav-bar{
+    background-color: #F9E3E3;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.head{
+    font-size: 60px;
+    margin: 20px;
+    width: 70%;
+}
+.menu{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+    margin-right: 20px;
+    /* background-color: #A3D2DC; */
+}
+.h{
+    /* width: 200px; */
+    text-decoration: none;
+    color: black;
+    /* width: 50px; */
+    padding: 12px;
+    cursor: pointer;
+}
+.h:hover{
+    background-color: #A3D2DC;
+    border-radius: 100px;
+    /* width: 100px;
+    height: 20px; */
+}
+.profile{
+    font-size: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.info{
+    display: flex;
+}
+.name{
+    width: 27%;
+    padding: 50px;
+}
+.n{
+    font-size: 25px;
+    color: #F9E3E3;
+    padding: 10px;
+}
+.n:hover{
+    background-color: #F9E3E3;
+    color: #364358;
+    border-radius: 5px;
+}
+.school{
+    width: 50%;
+    font-size: 25px;
+    color: #F9E3E3;
+    padding-top: 50px;
+    justify-content: center;
+}
+.cir{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.b:hover{
+   text-decoration: underline 4px white;
+    
+}
+.pri,.jun,.sen{
+    display: flex;
+    padding-bottom: 30px;
+}
+.b{
+    padding-left: 15px;
+    padding-right: 15px;
+    /* padding-top: 30px; */
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    height: 50px;
+}
+.contact{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+.facebook,.ig,.phone,.gmail{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+
+}
+.f{
+    font-size: 25px;
+    color: #F9E3E3;
+    padding-left: 20px;
+    display: flex;
+    padding-top: 10px;
+}
+.in{
+    font-size: 25px;
+    color: #F9E3E3;
+    padding-top: 70px;
+    padding-left: 110px;
+}
+.in:hover{
+    font-style: italic;
+}
+.up,.down{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+.c{
+    padding: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
